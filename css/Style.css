@@ -1,0 +1,79 @@
+body {
+ 
+    background-image: url("../imagens/fundo\ atualizado.jfif");
+    background-repeat: no-repeat;
+    background-size: 1920px 1000px;
+}
+/*CLASSES*/
+.CardInte{
+    background-color: #0f250d;
+    width: 570px;
+    height: 400px;
+    box-shadow: -1px -1px 15px 15px black;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 700px;
+    margin-top: 250px;
+    
+}
+.login{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+
+}
+
+
+/*ID*/
+#texto1card{
+    width: 400px;
+    margin-top: 25px;
+    margin-left: 38%;
+    font-size: 60px;
+    color: #daa520 ;
+    
+}
+#texto2card{
+
+    width: 400px;
+    margin-left: 30%;
+    margin-top: -40px;
+    font-size: 50px;
+    color: #daa520 ;
+    
+}
+#inp-Login{
+
+    width: 400px;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 60px;
+}
+#inp-Senha{
+
+    width: 400px;
+    height: 30px;
+    font-size: 20px;
+}
+#btn-Acessar{
+    width: 200px;
+    height: 30px;
+    border: 0px;
+    background-color: #0f250d;
+    font-size: 30px;
+    color: #daa520;
+    margin-left: 55%;
+    margin-top: 50px;
+}
+#btn-Acessar:hover{
+
+    color: #ad870a;
+
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+}
+
