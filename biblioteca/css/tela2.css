@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+header{
+
+    width: 160px;
+    height: 947px;
+    border: solid black;
+}
+/*IDS*/
+#Log-Cabeçalho{
+    width: 160px;
+    height: 150px;
+    
+}
+#inp-pesquisar{
+
+    width: 200px;
+    height: 200px;
+    margin-left: 500px;
+    margin-top: 00px;
+
+}
