@@ -3,6 +3,9 @@ body {
     background-image: url("../imagens/fundo\ atualizado.jfif");
     background-repeat: no-repeat;
     background-size: 1920px 1000px;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 /*CLASSES*/
 .CardInte{
@@ -21,7 +24,6 @@ body {
     display: flex;
     align-items: center;
     margin-left: 20%;
-
 }
 
 
@@ -43,19 +45,12 @@ body {
     color: #daa520 ;
     
 }
-#inp-Login{
 
-    width: 400px;
-    height: 30px;
-    font-size: 20px;
-    margin-top: 60px;
+#move-inp{
+    margin-top: -20px;
+    margin-left: 100px;
 }
-#inp-Senha{
 
-    width: 400px;
-    height: 30px;
-    font-size: 20px;
-}
 #btn-Acessar{
     width: 200px;
     height: 30px;
@@ -63,8 +58,8 @@ body {
     background-color: #0f250d;
     font-size: 30px;
     color: #daa520;
-    margin-left: 55%;
-    margin-top: 50px;
+    margin-left: 50%;
+    margin-top: 20px;
 }
 #btn-Acessar:hover{
 
@@ -77,3 +72,43 @@ a{
     text-decoration: none;
 }
 
+form{
+    width: 100%;
+    max-width: 350px;
+    padding: 2%;
+}
+
+.single-input{
+    position: relative;
+    margin: 30px 0;
+}
+.single-input label{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    color: rgb(0, 0, 0);
+    cursor: text;
+    transition: 0.5s ease-in-out;
+}
+
+.input{
+    width: 380px;
+    height: 25px;
+    padding: 0px;
+    border: 0;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    outline: 0;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    transition: 0.5s ease-in-out;
+}
+.input:focus,
+.input:valid{
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+.input:focus ~ label,
+.input:valid ~ label{
+    transform: translateY(-30px);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
